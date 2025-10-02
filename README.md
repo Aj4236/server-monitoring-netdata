@@ -63,7 +63,6 @@ sudo docker run -d \
 3. Access Netdata Dashboard
 Remote access via IP server via browse:
 http://192.168.153.135:19999
-https://vfebruay.store  # if HTTPS and Nginx reverse proxy configured
 4. Firewall Setup (if needed)
 # Allow Netdata HTTP port
 sudo firewall-cmd --permanent --add-port=19999/tcp
